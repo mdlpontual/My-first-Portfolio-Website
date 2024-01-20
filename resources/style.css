@@ -1,0 +1,31 @@
+/*------------------------------*/
+
+.container {
+    border: 3px solid red;
+}
+
+h1,
+h2,
+h3,
+ul {
+    border: 3px solid blue;
+}
+
+li,
+p {
+    border: 3px solid green;
+}
+
+/*------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 1000px;
+    font-family: Tahoma;
+    font-size: 20px;
+    margin: 0 auto;
+}
