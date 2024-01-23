@@ -1,20 +1,6 @@
 /*------------------------------*/
 
-.container {
-    border: 3px solid red;
-}
-
-h1,
-h2,
-h3,
-ul {
-    border: 3px solid blue;
-}
-
-li,
-p {
-    border: 3px solid green;
-}
+/* border: 3px solid red; */
 
 /*------------------------------*/
 
@@ -28,4 +14,55 @@ html {
     font-family: Tahoma;
     font-size: 20px;
     margin: 0 auto;
+}
+
+/*HEADER------------------------------*/
+
+header .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.headerNav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.headerNav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*h1 {
+    font-size: 2em;
+}*/
+
+/*MAIN------------------------------*/
+
+main #secOne .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+main article p {
+    width: 100%;
+    margin: 10px 10px 10px 0;
+}
+
+main figure {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+main figure img {
+    width: 75%;
 }
