@@ -49,7 +49,7 @@ main #secOne .container {
     width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 
 main article p {
@@ -73,7 +73,7 @@ main #secTwo .container {
     width: 100%;
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .projects ul {
@@ -104,7 +104,6 @@ main #secTwo .container {
 
 footer {
     bottom: 0;
-    margin-top: 20px;
     margin-bottom: 5px;
 }
 
