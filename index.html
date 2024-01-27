@@ -5,23 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Portfolio Website</title>
         <link rel="stylesheet" href="../13_CC-PP_Portfolio-Website/resources/style.css">
-        <script src="../13_CC-PP_Portfolio-Website/script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./script.js" defer></script>
     </head>
     <body>
         <header>
             <div class="container">
-                <div>
+                <div class="hgroup">
                     <h1>Mateus de Lima Pontual</h1>
                     <h3>Front-End Engineer</h3>
                 </div>
                 <nav class="headerNav">
                     <ul>
-                        <li><a href="#secOne">About me</a></li>
-                        <li><a href="#secTwo">Projects and Skills</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a id="anchor" href="#secOne">About me</a></li>
+                        <li><a id="anchor" href="#secTwo">Projects and Skills</a></li>
+                        <li><a id="anchor" href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
+                <div class="screenModeButton">
+                    <button>Turn to Dark Mode</button>
+                </div>
             </div>
         </header>
         <main>
@@ -43,17 +46,19 @@
                         </p>
                     </article>
                     <figure>
-                        <img src="./resources/img/27.jpg" width="300px">
+                        <img id="profile1" src="./resources/img/27.jpg" width="300px">
+                            <p class="click">Clink the picture for a better view!</p>
                     </figure>
                 </div>
             </section>
             <section id="secTwo">
                 <div class="container">
                     <div class="projectContainer">
+                        <h2>Projects</h2>
                         <details class="project">
                             <summary class="projectTitle">The (Nonsese) Joke Generator</summary>
                             <img src="../13_CC-PP_Portfolio-Website/resources/img/jj.jpg" width="300px">
-                            <p>Just a screenshot of the code for now</p>
+                            <h6>Just a screenshot of the code for now</h6>
                         </details>
                         <details class="project">
                             <summary class="projectTitle">Nouma Arquitetura</summary>
@@ -62,14 +67,14 @@
                     <div class="skills">
                         <h2>Skills</h2>
                         <figure>
-                            <img src="./resources/img/html-5-logotype.png" width="55px">
-                            <img src="./resources/img/css-3.png" width="55px">
-                            <img src="./resources/img/bootstrap.png" width="55px">
-                            <img src="./resources/img/java-script.png" width="55px">
-                            <img src="./resources/img/atom.png" width="55px">
-                            <img src="./resources/img/java.png" width="55px">
-                            <img src="./resources/img/git.png" width="55px">
-                            <img src="./resources/img/github.png" width="55px">
+                            <img id="skill1" src="./resources/img/html-5-logotype.png" width="55px">
+                            <img id="skill2" src="./resources/img/css-3.png" width="55px">
+                            <img id="skill3" src="./resources/img/bootstrap.png" width="55px">
+                            <img id="skill4" src="./resources/img/java-script.png" width="55px">
+                            <img id="skill5" src="./resources/img/atom.png" width="55px">
+                            <img id="skill6" src="./resources/img/java.png" width="55px">
+                            <img id="skill7" src="./resources/img/git.png" width="55px">
+                            <img id="skill8" src="./resources/img/github.png" width="55px">
                         </figure>
                     </div>
                 </div>

@@ -22,9 +22,16 @@ header .container {
     width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
+    grid-template-rows: 80% 20%;
     align-items: center;
     padding: 20px 0;
     margin-bottom: 20px;
+
+}
+
+.hgroup, .screenModeButton, .headerNav {
+    width: 100%;
+    height: 100%;
 }
 
 .headerNav ul {
@@ -42,6 +49,12 @@ header .container {
     color: black;
 }
 
+button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: black;
+}
 
 /*MAIN---------------------------------------------------------------------------------------------------------------*/
 /*secOne------------------------------------------------------------------*/
@@ -68,6 +81,10 @@ main figure img {
     width: 75%;
 }
 
+.click {
+    color: red;
+}
+
 /*secTwo------------------------------------------------------------------*/
 main #secTwo .container {
     width: 100%;
@@ -76,16 +93,10 @@ main #secTwo .container {
     margin-bottom: 20px;
 }
 
-.projects ul {
-    list-style: none;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-
-.projects ul li a {
-    text-decoration: none;
-    color: black;
+.projectContainer {
+    width: 100%;
+    display: grid;
+    align-items: center;
 }
 
 .skills figure {
@@ -97,7 +108,7 @@ main #secTwo .container {
 
 .contact {
     margin-top: 300px;
-    margin-bottom: 400px;
+    margin-bottom: 350px;
 }
 
 /*FOOTER---------------------------------------------------------------------------------------------------------------*/
@@ -125,6 +136,7 @@ footer {
         width: 50%;
         justify-items: center;
         align-content: center;
+        margin-bottom: 100px;
     }
     main figure img {
         width: 100%;
@@ -138,6 +150,7 @@ footer {
     }
     .skills {
         margin-top: 30px;
+        margin-bottom: 100px;
     }
 }
 
@@ -156,6 +169,7 @@ footer {
         width: 50%;
         justify-items: center;
         align-content: end;
+        margin-bottom: 100px;
     }
     main figure img {
         width: 100%;
@@ -169,6 +183,7 @@ footer {
     }
     .skills {
         margin-top: 30px;
+        margin-bottom: 100px;
     }
 }
 
